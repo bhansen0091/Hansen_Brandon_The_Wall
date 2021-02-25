@@ -46,7 +46,7 @@ def login(request):
     request.session['last_name'] = user.last_name
     request.session['email'] = user.email_address
 
-    return redirect("/exam")
+    return redirect("/wall")
 
 
 # def success(request):
